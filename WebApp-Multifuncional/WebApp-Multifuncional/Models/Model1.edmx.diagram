@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed5acb0e729c4004b35a70dd271a973d" Name="Diagram1">
+        <EntityTypeShape EntityType="multifuncionalModel1.materia" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="multifuncionalModel1.materia_miembro" Width="1.5" PointX="7.375" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="multifuncionalModel1.miembro" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="multifuncionalModel1.materia_materia_miembro" ManuallyRouted="false" />
+        <AssociationConnector Association="multifuncionalModel1.miembro_materia_miembro" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
