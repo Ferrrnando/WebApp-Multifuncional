@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+	background: #F2F3F4;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,3 +23,10 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+.title {font-family: 'Prompt', sans-serif; color: #007BFF}
+
+.slogan {font-family: 'Source Code Pro', monospace; color: #007BFF}
+
+.parrafo {font-family: 'Roboto', sans-serif; font-size: 16px;} 

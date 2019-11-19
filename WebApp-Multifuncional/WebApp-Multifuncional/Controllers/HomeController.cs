@@ -13,17 +13,13 @@ namespace WebApp_Multifuncional.Controllers
 			return View();
 		}
 
-		public ActionResult About()
-		{
-			ViewBag.Message = "Your application description page.";
-
+		public ActionResult Consulta()
+		{	
 			return View();
 		}
 
-		public ActionResult Contact()
+		public ActionResult Acercade()
 		{
-			ViewBag.Message = "Your contact page.";
-
 			return View();
 		}
 	}

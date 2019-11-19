@@ -1,0 +1,16 @@
+﻿@{
+	ViewBag.Title = "Consulta";
+	List<SelectListItem> items = (List<SelectListItem>)ViewBag.items;
+}
+
+<h2 class="title" style="margin-top:2em;">@ViewBag.Title</h2>
+<hr />
+
+<div class="form-group">
+	@Html.Label("Miembros", new { @class = "title" })
+</div>
+<br />
+
+<div class="form-group">
+	@Html.Label("Materias", new { @class = "title" })
+</div>
