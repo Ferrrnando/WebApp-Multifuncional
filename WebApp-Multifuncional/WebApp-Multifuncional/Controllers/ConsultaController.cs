@@ -21,7 +21,7 @@ namespace WebApp_Multifuncional.Controllers
 					 select new ConsultaTabla
 					 {
 						 Id = d.id,
-						 Matricula = d.matricula
+						 Nombre = d.nombre
 
 					 }).ToList();
 			}
@@ -30,7 +30,7 @@ namespace WebApp_Multifuncional.Controllers
 			{
 				return new SelectListItem()
 				{
-					Text = a.Matricula.ToString(),
+					Text = a.Nombre.ToString(),
 					Value = a.Id.ToString(),
 					Selected = false
 				};
